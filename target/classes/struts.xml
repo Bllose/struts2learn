@@ -16,6 +16,8 @@
             <result name="success">/HelloWorld.jsp</result>
         </action>
         
+        <!-- 当校验后有错误信息，则不会直接运行execute
+        	而是返回input -->
         <action name="register" class="bllose.controller.Register" method="execute">
         	<result name="success">/thankyou.jsp</result>
         	<result name="input">/register.jsp</result>

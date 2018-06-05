@@ -12,6 +12,9 @@
   <body>
     <h3>Register for a prize by completing this form.</h3>
 
+	<!-- 提交调用 register的action。
+		 textfield -> setPersonBean -> getFirstName
+		 -->
     <s:form action="register">
       <s:textfield name="personBean.firstName" label="First name" />
       <s:textfield name="personBean.lastName" label="Last name" />
